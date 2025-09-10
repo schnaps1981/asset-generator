@@ -51,11 +51,11 @@ function generate(files, targetAndroid, targetIos) {
 module.exports = (q, targetAndroid, targetIos) => {
     if (typeof targetAndroid !== "undefined") {
         targetAndroid = ensureTrailingSlash(targetAndroid);
-        fse.ensureDirSync(targetAndroid + 'drawable-hdpi');
-        fse.ensureDirSync(targetAndroid + 'drawable-ldpi');
         fse.ensureDirSync(targetAndroid + 'drawable-mdpi');
+        fse.ensureDirSync(targetAndroid + 'drawable-hdpi');
         fse.ensureDirSync(targetAndroid + 'drawable-xhdpi');
         fse.ensureDirSync(targetAndroid + 'drawable-xxhdpi');
+        fse.ensureDirSync(targetAndroid + 'drawable-xxxhdpi');
     }
 
     if (typeof targetIos !== "undefined") {

@@ -1,6 +1,6 @@
 {
   "name": "mobile-asset-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a simple commandline asset generator for iOS and Android. forked from github:SSilence/asset-generator ",
   "dependencies": {
     "commander": "^2.11.0",
@@ -8,9 +8,8 @@
     "glob": "^7.1.2",
     "jimp": "^0.2.28"
   },
-  "devDependencies": {},
   "bin": {
-    "asset-generator": "./index.js"
+    "mobile-asset-generator": "./index.js"
   },
   "author": "Tobias Zeising <tobias.zeising@aditu.de> (http://www.aditu.de)",
   "license": "MIT",
